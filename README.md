@@ -7,10 +7,10 @@ Idealkundenprofilen der Buyer-Enablement-Plattform.
 
 ## Inhalt
 
-| ICP | Firmen | Starker Fit (A) | Guter Fit (B) | Bedingt (C) | Kein Fit (D) |
+| ICP | Firmen | Starker Fit | Guter Fit | Bedingter Fit | Schlechter Fit |
 |---|---|---|---|---|---|
-| Druckmaschinenhersteller (Präzision) | 87 | 3 | 28 | 38 | 18 |
-| Spritzgussmaschinenbau | 48 | 2 | 19 | 18 | 9 |
+| Druckmaschinenhersteller (Präzision) | 87 | 3 | 8 | 38 | 38 |
+| Spritzgussmaschinenbau | 48 | 2 | 10 | 19 | 17 |
 
 Das Dashboard hat oben einen Reiter je Idealkundenprofil. Jede Firma lässt sich aufklappen und zeigt dann Sitz,
 Größe, Umsatz, Konzernzugehörigkeit und die Note je Kriterium mit Begründung und Quelle.
@@ -26,6 +26,19 @@ Größe, Umsatz, Konzernzugehörigkeit und die Note je Kriterium mit Begründung
 | `2026-09-01-icp-bewertung-spritzgussmaschinen-a-liste.csv` | nur Gesamtnote A |
 
 ## Bewertung lesen
+
+Die Gesamtpunkte je Firma reichen von 0 bis 100 und ergeben die Einstufung:
+
+| Punkte | Einstufung |
+|---|---|
+| 85 bis 100 | Starker Fit |
+| 70 bis 84 | Guter Fit |
+| 51 bis 69 | Bedingter Fit |
+| 0 bis 50 | Schlechter Fit |
+
+Für einen starken Fit müssen zusätzlich die Branche passen, die Mitarbeiterzahl belegt und im Zielband liegen und
+mindestens 70 Prozent der gewichteten Kriterien belegt sein. Fehlt eine dieser Bedingungen, steht die Firma trotz
+hoher Punktzahl eine Stufe tiefer.
 
 Je Kriterium gibt es eine Note: A erfüllt, B überwiegend, C teilweise oder nur schwach belegt, D nicht erfüllt,
 N ohne Datenbasis. Bei Anti-Kriterien heißt A, dass das Ausschlussmerkmal nicht zutrifft. Ein C ist ein
@@ -48,4 +61,4 @@ die Liste anführt.
 - Websites, die ihre Inhalte erst im Browser aufbauen, liefern wenig prüfbaren Text. Wo die Firmografie durchweg A
   ist und die Bedarfsindikatoren auffällig schwach sind, lohnt der Blick auf die Firma statt auf die Punktzahl.
 
-Stand: 1. September 2026
+Stand: 1. September 2026 (Einstufungsskala angepasst)

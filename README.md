@@ -9,8 +9,8 @@ Idealkundenprofilen der Buyer-Enablement-Plattform.
 
 | ICP | Firmen | Starker Fit | Guter Fit | Bedingter Fit | Schlechter Fit |
 |---|---|---|---|---|---|
-| Druckmaschinenhersteller (Präzision) | 87 | 4 | 7 | 38 | 38 |
-| Spritzgussmaschinenbau | 48 | 2 | 10 | 19 | 17 |
+| Druckmaschinenhersteller (Präzision) | 87 | 4 | 27 | 45 | 11 |
+| Spritzgussmaschinenbau | 48 | 5 | 16 | 21 | 6 |
 
 Das Dashboard hat oben einen Reiter je Idealkundenprofil. Jede Firma lässt sich aufklappen und zeigt dann Sitz,
 Größe, Umsatz, Konzernzugehörigkeit und die Note je Kriterium mit Begründung und Quelle.
@@ -31,10 +31,10 @@ Die Gesamtpunkte je Firma reichen von 0 bis 100 und ergeben die Einstufung:
 
 | Punkte | Einstufung |
 |---|---|
-| 85 bis 100 | Starker Fit |
-| 70 bis 84 | Guter Fit |
-| 51 bis 69 | Bedingter Fit |
-| 0 bis 50 | Schlechter Fit |
+| 80 bis 100 | Starker Fit |
+| 60 bis 79 | Guter Fit |
+| 40 bis 59 | Bedingter Fit |
+| 0 bis 39 | Schlechter Fit |
 
 Die Einstufung folgt allein der Punktzahl, es gibt keine Zusatzbedingungen.
 
@@ -59,4 +59,4 @@ wirkt über die Punkte, die Einstufung selbst kennt keine Ausnahmen.
 - Websites, die ihre Inhalte erst im Browser aufbauen, liefern wenig prüfbaren Text. Wo die Firmografie durchweg A
   ist und die Bedarfsindikatoren auffällig schwach sind, lohnt der Blick auf die Firma statt auf die Punktzahl.
 
-Stand: 1. September 2026 (Einstufung folgt allein der Punktzahl)
+Stand: 2. September 2026
